@@ -67,9 +67,8 @@ body, button {
 
  .icons-container {
     display: flex;
-    justify-content:space-between;
-    padding-left: 50px;
-    padding-right: 50px;
+    justify-content:space-evenly;
+    
     padding-top: 90px;
     padding-bottom: 90px;
  }
@@ -116,6 +115,13 @@ textarea {
     
 }
 
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus { 
+    outline: none;
+    box-shadow: 0 0 5px rgba(103, 58, 3, 0.834)
+    
+}
+
+
 input::placeholder,
 textarea::placeholder {
     font-family: "ff-providence-sans-web-pro", sans-serif;
@@ -148,4 +154,14 @@ textarea::placeholder {
 .submit-button:active {
     opacity: 0.6;
     
+}
+
+
+.footer-container{
+    padding-top: 90px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
 }
