@@ -77,10 +77,11 @@ nav ul li:not(:last-child)::after {
     content: "";
     display: block;
     border-bottom: 1px solid #5f4c39;
-    width: calc(100% - 10px);
+    width: 70%;
     position: absolute;
-    left: 0;
+    left: 50%;
     bottom: 0;
+    transform: translateX(-50%);
 }
 
 nav ul li a {
@@ -136,15 +137,16 @@ nav p {
     align-items: left;
     justify-content: flex-end;
     flex-direction: column;
+    padding-top: 20px;
 }
 
 .right-text-content h1{
-    font-size: 2.5em;
+    font-size: 2.7em;
 }
 
 .right-text-content {
-    padding-bottom: 14px;;
-    padding-left: 14px;
+    padding-bottom: 2px;
+    padding-left: 8vw;
 }
 
 .right-container-line {
@@ -231,6 +233,12 @@ textarea {
     border-radius: 30px;
     border: none;
     background-color: #FED8B1;
+    
+}
+
+#message {
+    padding-left: 15px;
+    padding-top: 15px;
     
 }
 
