@@ -9,19 +9,26 @@
     <link rel="stylesheet" href="https://use.typekit.net/phs1itr.css">
   </head>
   <body>
-        <nav>
-            <img alt="logo" class="nav-logo" src="images/baristas-logo-transparent.png">
-            <ul>
-                <li><a href="#">Home</a></li>                              
-                <li><a href="#">Info</a></li>               
-                <li><a href="#">Coffee Flights</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="nav-button-container">
+    <nav>
+        <div class="hamburger-menu" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <a href="index.html"><img alt="logo" class="nav-logo" src="images/baristas-logo-transparent.png"></a>
+        <div class="nav-menu" id="nav-menu">
+          <ul>
+              <li><a href="#">Home</a></li>                              
+              <li><a href="#">Info</a></li>               
+              <li><a href="#">Coffee Flights</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="nav-button-container">
             <button class="nav-button" type="button">Menu</button>
-            </div>
-            <p>Suite 10, Central Square, 199 New Road Linwood, NJ 08221</p>
-        </nav>
+          </div>
+          <p>Suite 10, Central Square, 199 New Road Linwood, NJ 08221</p>
+        </div>
+      </nav>
     <div class="main-content">
     <div class="banner-container">
         <div class="banner">
@@ -43,21 +50,21 @@
     <div class="icons-container">
         <div class="icon">
             <div class="icon-content">
-                <img src="images/location.png" alt="Location">
+                <ion-icon class="icon-image" name="call-outline"></ion-icon>
                 <p>Call us</p>
                 <p><a href="tel:+6099042990">(609) 904-2990</a></p>
             </div>
         </div>
         <div class="icon">
             <div class="icon-content">
-                <img src="images/location.png" alt="Location">
+                <ion-icon class="icon-image" name="mail-outline"></ion-icon>
                 <p>Send us an email</p>
                 <p><a href="mailto:welovebaristas@gmail.com">welovebaristas&#64;gmail.com</a></p>
             </div>
         </div>
         <div class="icon">
             <div class="icon-content">
-                <img src="images/location.png" alt="Location">
+                <ion-icon class="icon-image" name="home-outline"></ion-icon>
                 <p>Visit us</p>
                 <p><a target="_blank" href="https://maps.app.goo.gl/nsj44fYuBxaArsex6">Suite 10, Central Square, 199 New Road
                     Linwood, NJ 08221</a></p>
@@ -65,7 +72,7 @@
         </div>
         <div class="icon">
             <div class="icon-content">
-                <img src="images/location.png" alt="Location">
+                <ion-icon class="icon-image" name="time-outline"></ion-icon>
                 <p>Hours</p>
                 <p>Open everday except Tuesdays from 8 AM - 3 PM</p>
             </div>
@@ -77,12 +84,15 @@
         <h1>Do you have a question?</h1>
         <form action="https://formsubmit.co/mattmiraglia01@gmail.com" method="POST">
             <input type="hidden" name="_next" value="thankyou.html">
+            <div class="inline-form-group">
             <div class="form-group">
                 <input placeholder="Your name" type="text" id="name" name="name" required>
             </div>
+            
             <div class="form-group">     
                 <input placeholder="Your e-mail" type="email" id="email" name="email" required>
             </div>
+         </div>
             <div class="form-group">   
                 <input placeholder="Subject" type="text" id="subject" name="subject" required>
             </div>
@@ -114,6 +124,8 @@
         </div>
     </footer>
 </div>
-        
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="contact.js"></script>
   </body>
 </html>

@@ -4,7 +4,7 @@ body, button {
     font-family: "ff-providence-sans-web-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
-    background-color: #EADDCA;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 
@@ -60,7 +60,7 @@ nav {
 nav ul {
     display: flex;
     flex-direction: column;
-    list-style-type: none;
+    list-style: none;
     padding: 0;
     margin: 0;
     align-items: center;
@@ -76,8 +76,8 @@ nav ul li {
 nav ul li:not(:last-child)::after {
     content: "";
     display: block;
-    border-bottom: 1px solid #5f4c39; /* Color and style of the line */
-    width: calc(100% - 10px); /* Adjust to account for padding if needed */
+    border-bottom: 1px solid #5f4c39;
+    width: calc(100% - 10px);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -99,7 +99,7 @@ nav ul li a:active {
 }
 
 nav p {
-    margin-top: 70px;
+    margin-top: 50px;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
@@ -170,9 +170,11 @@ nav p {
 
  .icons-container {
     display: flex;
-    justify-content:space-evenly;
     padding-top: 180px;
     padding-bottom: 50px;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 60px;
  }
 
  .icon {
@@ -245,12 +247,14 @@ input[type="text"]:valid, input[type="email"]:valid, textarea:valid {
     
 }
 
+.inline-form-group .form-group {
+    float: left;
+    width: 48%;
+}
 
-
-
-
-
-
+.inline-form-group .form-group:nth-child(2) {
+    margin-left: 4%;
+}
 
 
 input::placeholder,
@@ -324,3 +328,9 @@ textarea::placeholder {
     text-align: center;
     margin-bottom: 40px;
 }
+
+.icon-image {
+    width: 50px;
+    height: 50px;
+}
+
