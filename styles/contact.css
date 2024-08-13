@@ -37,6 +37,10 @@ body, button {
     flex-direction: column;
 }
 
+.right-text-content h1{
+    font-size: 2.5em;
+}
+
 .right-text-content {
     padding-bottom: 14px;;
     padding-left: 14px;
@@ -44,13 +48,9 @@ body, button {
 
 .right-container-line {
     border: 1px solid rgb(216, 152, 99);
-    width: 150px;
-
-
+    width: 210px;
+    margin-right: 70px;
  }
-
-    
-
 
 .banner-text-left {
     color: #FED8B1;
@@ -181,4 +181,15 @@ textarea::placeholder {
 
 .footer-container a:hover {
     color:#564940;
+}
+
+.footer-break {
+    border-top: 1px solid #bfa28e;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 40px;
 }
