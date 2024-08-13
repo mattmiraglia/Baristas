@@ -29,6 +29,7 @@ body, button {
     color:#26201C;
     cursor: pointer;
     font-size: 20px;
+    transition: opacity 0.4;
 }
 
 .nav-button-container {
