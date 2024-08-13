@@ -7,29 +7,129 @@ body, button {
     background-color: #EADDCA;
 }
 
+
+.main-content{
+    margin-left: 220px;
+}
+.nav-logo {
+    display: block;
+    width: 100px;
+    padding-bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.nav-button {
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+    color:#26201C;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.nav-button-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-button:hover {
+    opacity: 0.8;
+}
+
+.nav-button:active {
+    opacity: 0.6;
+}
+
+nav {
+   position: fixed;
+   left: 0;
+   top: 0;
+   background-color: #6d5c51;
+   width: 220px;
+   height: 100%;
+   padding-top: 50px;
+   z-index: 1000; /* ensures it stay on top of other content */
+   align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+nav ul li {
+   padding: 20px 10px;
+   position: relative;
+   width: 100%;
+   text-align: center;
+}
+
+nav ul li:not(:last-child)::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #5f4c39; /* Color and style of the line */
+    width: calc(100% - 10px); /* Adjust to account for padding if needed */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+nav ul li a {
+    color: #FED8B1;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+nav ul li a:hover {
+    opacity: 0.8
+}
+
+nav ul li a:active {
+    opacity: 0.6;
+}
+
+nav p {
+    margin-top: 70px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:#FED8B1;
+}
+
 .banner-container {
     width: 100%;
-    height: 50vh;
+    height: 30vh;
+    
 }
 
 .banner {
     width: 100%;
-    height: 45vh;
+    height: 40vh;
     background-image: url(/images/coffeepour2.jpg);
     background-size: cover;
     background-position: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .banner-text-right {
     color: #FED8B1;
     margin-left: auto;
-    padding-right: 250px;
+    padding-right: 170px;
     padding-left: 15px;
     background-color: rgba(166, 123, 91, 0.5);
-    margin-right: 100px;
+    margin-right: 80px;
     height: 100%;
     display: flex;
     align-items: left;
@@ -60,18 +160,34 @@ body, button {
  }
 
  .left-text-content {
-    padding-left: 90px;
-    padding-top: 125px;
-    font-size: 1.2em;
+    padding-left: 8vw;
+    padding-top: 20vh; 
+    font-size: 2vw;
+    padding-right: 5vw;
+    padding-bottom: 5vh;
  }
 
  .icons-container {
     display: flex;
     justify-content:space-evenly;
-    
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 180px;
+    padding-bottom: 50px;
  }
+
+ .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3vw;
+    text-align: center;
+    flex: 1;
+    max-width: 25%;
+}
+
+.icon-content p a {
+    color:#26201C;
+}
+
 
  
 .contact-container {
@@ -120,6 +236,20 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
     box-shadow: 0 0 5px rgba(103, 58, 3, 0.834)
     
 }
+
+input[type="text"]:valid, input[type="email"]:valid, textarea:valid { 
+    outline: none;
+    box-shadow: none;
+    border-color: initial;
+    
+}
+
+
+
+
+
+
+
 
 
 input::placeholder,

@@ -6,10 +6,23 @@
     <title>Baristas</title>
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/general.css">
-
     <link rel="stylesheet" href="https://use.typekit.net/phs1itr.css">
   </head>
   <body>
+        <nav>
+            <img alt="logo" class="nav-logo" src="images/baristas-logo.png">
+            <ul>
+                <li><a href="#">Home</a></li>                              
+                <li><a href="#">Info</a></li>               
+                <li><a href="#">Coffee Flights</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="nav-button-container">
+            <button class="nav-button" type="button">Menu</button>
+            </div>
+            <p>Suite 10, Central Square, 199 New Road Linwood, NJ 08221</p>
+        </nav>
+    <div class="main-content">
     <div class="banner-container">
         <div class="banner">
             <div class="banner-text-left">
@@ -19,9 +32,10 @@
             </div>
             <div class="banner-text-right">
                 <div class="right-text-content">
-                    <p>WE ARE OPEN EVERYDAY</p>
+                    <p>WE ARE OPEN EVERYDAY
+                    <br>EXCEPT CLOSED TUESDAYS</p>
                     <hr class="right-container-line">
-                    <h1>8 AM &#8212; 9 PM</h1>
+                    <h1>8 AM &#8212; 3 PM</h1>
                 </div>
             </div>
         </div>
@@ -30,29 +44,30 @@
         <div class="icon">
             <div class="icon-content">
                 <img src="images/location.png" alt="Location">
-                <p>Phone</p>
-                <p></p>
+                <p>Call us</p>
+                <p><a href="tel:+6099042990">(609) 904-2990</a></p>
             </div>
         </div>
         <div class="icon">
             <div class="icon-content">
                 <img src="images/location.png" alt="Location">
-                <p>Email</p>
-                <p></p>
+                <p>Send us an email</p>
+                <p><a href="mailto:welovebaristas@gmail.com">welovebaristas&#64;gmail.com</a></p>
             </div>
         </div>
         <div class="icon">
             <div class="icon-content">
                 <img src="images/location.png" alt="Location">
-                <p>Location</p>
-                <p></p>
+                <p>Visit us</p>
+                <p><a target="_blank" href="https://maps.app.goo.gl/nsj44fYuBxaArsex6">Suite 10, Central Square, 199 New Road
+                    Linwood, NJ 08221</a></p>
             </div>
         </div>
         <div class="icon">
             <div class="icon-content">
                 <img src="images/location.png" alt="Location">
                 <p>Hours</p>
-                <p></p>
+                <p>Open everday except Tuesdays from 8 AM - 3 PM</p>
             </div>
         </div>
 
@@ -60,7 +75,8 @@
     <div class="contact-container">
         <p>CONTACT FORM</p>
         <h1>Do you have a question?</h1>
-        <form action="submit_form.php" method="POST">
+        <form action="https://formsubmit.co/mattmiraglia01@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="thankyou.html">
             <div class="form-group">
                 <input placeholder="Your name" type="text" id="name" name="name" required>
             </div>
@@ -97,6 +113,7 @@
             <p>&copy; 2024 Baristas Coffee House by Miraglia Bros. | All Rights Reserved</p>
         </div>
     </footer>
+</div>
         
   </body>
 </html>
