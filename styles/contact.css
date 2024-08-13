@@ -4,7 +4,7 @@ body, button {
     font-family: "ff-providence-sans-web-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
-    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    background: #FED8B1;
 }
 
 
@@ -327,7 +327,7 @@ textarea::placeholder {
 }
 
 .footer-break {
-    border-top: 1px solid #FFE6CC;
+    border-top: 1px solid #eaa158;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -343,6 +343,6 @@ textarea::placeholder {
 }
 
 .footer-container, .copyright {
-    background-color: #FFE6CC;
+    background-color: #FED8B1;
 }
 

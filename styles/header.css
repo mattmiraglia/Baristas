@@ -1,0 +1,99 @@
+
+.main-content{
+    margin-left: 220px;
+}
+.nav-logo {
+    display: block;
+    width: 180px;
+    padding-bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+}
+
+
+
+.nav-button {
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+    color:#26201C;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.nav-button-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-button:hover {
+    opacity: 0.8;
+}
+
+.nav-button:active {
+    opacity: 0.6;
+}
+
+nav {
+   position: fixed;
+   left: 0;
+   top: 0;
+   background-color: #6d5c51;
+   width: 220px;
+   height: 100%;
+   padding-top: 50px;
+   z-index: 1000; /* ensures it stays on top of other content */
+   align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+nav ul li {
+   padding: 20px 10px;
+   position: relative;
+   width: 100%;
+   text-align: center;
+}
+
+nav ul li:not(:last-child)::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #5f4c39;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+nav ul li a {
+    color: #FED8B1;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+nav ul li a:hover {
+    opacity: 0.8
+}
+
+nav ul li a:active {
+    opacity: 0.6;
+}
+
+nav p {
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:#FED8B1;
+}
