@@ -327,7 +327,7 @@ textarea::placeholder {
 }
 
 .footer-break {
-    border-top: 1px solid #bfa28e;
+    border-top: 1px solid #FFE6CC;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -340,5 +340,9 @@ textarea::placeholder {
 .icon-image {
     width: 50px;
     height: 50px;
+}
+
+.footer-container, .copyright {
+    background-color: #FFE6CC;
 }
 
