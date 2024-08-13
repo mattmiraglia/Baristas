@@ -165,3 +165,20 @@ textarea::placeholder {
     align-items: center;
     text-align: center;
 }
+
+.footer-container h2 {
+    color:#26201C;
+}
+
+.footer-container p {
+    color: #6d5c51;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color:#6d5c51;
+}
+
+.footer-container a:hover {
+    color:#564940;
+}
