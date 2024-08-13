@@ -338,10 +338,6 @@ textarea::placeholder {
     margin-bottom: 40px;
 }
 
-.icon-image {
-    width: 50px;
-    height: 50px;
-}
 
 .footer-container, .copyright {
     background-color: #FED8B1;
@@ -350,4 +346,10 @@ textarea::placeholder {
 .image-icons {
     width: 58px;
 }
+
+.icon-image {
+    width: 50px;
+    height: 50px;
+}
+
 
