@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baristas</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/general.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/phs1itr.css">
+  </head>
+  <body>
+    <div class="banner-container">
+        <div class="banner">
+            <div class="banner-text-left">
+                <div class="left-text-content">
+                    <h1>Feel free to<br>contact us</h1>
+                </div>
+            </div>
+            <div class="banner-text-right">
+                <div class="right-text-content">
+                    <p>WE ARE OPEN EVERYDAY</p>
+                    <hr class="right-container-line">
+                    <h1>8 AM &#8212; 9 PM</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="icons-container">
+        <div class="icon">
+            <div class="icon-content">
+                <img src="images/location.png" alt="Location">
+                <p>Phone</p>
+                <p></p>
+            </div>
+        </div>
+        <div class="icon">
+            <div class="icon-content">
+                <img src="images/location.png" alt="Location">
+                <p>Email</p>
+                <p></p>
+            </div>
+        </div>
+        <div class="icon">
+            <div class="icon-content">
+                <img src="images/location.png" alt="Location">
+                <p>Location</p>
+                <p></p>
+            </div>
+        </div>
+        <div class="icon">
+            <div class="icon-content">
+                <img src="images/location.png" alt="Location">
+                <p>Hours</p>
+                <p></p>
+            </div>
+        </div>
+
+    </div>
+    <div class="contact-container">
+        <p>CONTACT FORM</p>
+        <h1>Do you have a question?</h1>
+        <form action="submit_form.php" method="POST">
+            <div class="form-group">
+                <input placeholder="Your name" type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">     
+                <input placeholder="Your e-mail" type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">   
+                <input placeholder="Subject" type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">   
+                <textarea placeholder="Message" id="message" name="message" required></textarea>
+            </div>
+            <button class="submit-button" type="submit">Send a message</button>
+        </form>
+    </div>
+        
+  </body>
+</html>

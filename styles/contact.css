@@ -1,0 +1,151 @@
+body, button {
+    margin: 0;
+    padding: 0;
+    font-family: "ff-providence-sans-web-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #EADDCA;
+}
+
+.banner-container {
+    width: 100%;
+    height: 50vh;
+}
+
+.banner {
+    width: 100%;
+    height: 45vh;
+    background-image: url(/images/coffeepour2.jpg);
+    background-size: cover;
+    background-position: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text-right {
+    color: #FED8B1;
+    margin-left: auto;
+    padding-right: 250px;
+    padding-left: 15px;
+    background-color: rgba(166, 123, 91, 0.5);
+    margin-right: 100px;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.right-text-content {
+    padding-bottom: 14px;;
+    padding-left: 14px;
+}
+
+.right-container-line {
+    border: 1px solid rgb(216, 152, 99);
+    width: 150px;
+
+
+ }
+
+    
+
+
+.banner-text-left {
+    color: #FED8B1;
+    margin-right: auto;
+    font-size: 1.5em;
+    display: flex;
+ }
+
+ .left-text-content {
+    padding-left: 90px;
+    padding-top: 125px;
+    font-size: 1.2em;
+ }
+
+ .icons-container {
+    display: flex;
+    justify-content:space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+ }
+
+ 
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(166,123,91);;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    color: #FED8B1;
+   
+}
+
+.form-group {
+    margin-bottom: 25px;
+    width: 500px;
+}
+
+
+input[type="text"], input[type="email"],textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: none;
+    margin-top: 5px;
+    background-color: #FED8B1;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 150px; 
+    resize: vertical; 
+    border-radius: 30px;
+    border: none;
+    background-color: #FED8B1;
+    
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: "ff-providence-sans-web-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px; 
+    opacity: 1; 
+    text-align: left;
+    color: #6d5c51;
+}
+
+.submit-button {
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FED8B1;
+    color:  #26201C;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    opacity: 0.8;
+}
+
+.submit-button:active {
+    opacity: 0.6;
+    
+}
