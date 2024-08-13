@@ -13,10 +13,11 @@ body, button {
 }
 .nav-logo {
     display: block;
-    width: 100px;
+    width: 180px;
     padding-bottom: 10vh;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 14px;
 }
 
 
@@ -52,7 +53,7 @@ nav {
    width: 220px;
    height: 100%;
    padding-top: 50px;
-   z-index: 1000; /* ensures it stay on top of other content */
+   z-index: 1000; /* ensures it stays on top of other content */
    align-items: center;
 }
 
