@@ -190,19 +190,36 @@ nav p {
     max-width: 25%;
 }
 
+.mail-space {
+    padding-top: 12px;
+}
+
+.icon-header {
+    font-size: 20px;
+}
+
+.icon-link {
+    color:#6d5c51;
+}
+
+.icon-link:hover {
+    color:#564940;
+}
+
+
 .icon-content p a {
-    color:#26201C;
+    color:#6d5c51;
     text-decoration: none;
 }
 
 .icon-content p a:hover {
-    opacity: 0.8;
+    color:#564940;
+    text-decoration: underline;
 }
 
-.icon-content p a:active {
-    opacity: 0.6;
+.hours-text {
+    color: #6d5c51;;
 }
-
 
  
 .contact-container {
