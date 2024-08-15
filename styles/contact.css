@@ -192,6 +192,15 @@ nav p {
 
 .icon-content p a {
     color:#26201C;
+    text-decoration: none;
+}
+
+.icon-content p a:hover {
+    opacity: 0.8;
+}
+
+.icon-content p a:active {
+    opacity: 0.6;
 }
 
 
