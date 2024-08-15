@@ -111,6 +111,10 @@ p:not(:first-child) {
     margin-right: 200px;
 }
 
+.menu-content {
+    margin-bottom: 40px;
+}
+
 .bottom-note {
     display: flex;
     flex-direction: column;
