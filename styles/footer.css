@@ -25,7 +25,7 @@
 }
 
 .footer-break {
-    border-top: 1px solid #eaa158;
+    border: 1px solid rgba(216, 152, 99, 0.3);
     margin-top: 25px;
     margin-bottom: 25px;
 }
