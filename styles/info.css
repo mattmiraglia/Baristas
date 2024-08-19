@@ -10,7 +10,7 @@ body {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 180px; /* consistent with icons-container in contact.css */
+    margin-top: 90px; /* consistent with icons-container in contact.css */
     margin-bottom: 90px;
     padding: 0 30px 0 30px;
 
@@ -78,4 +78,69 @@ body {
     width: 100%;
     height: 300px;
     background-color: rgb(166, 123, 91);
+}
+
+/* about icons */
+
+.icons-container {
+    display: flex;
+
+    padding-top: 60px;
+    padding-bottom: 40px;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background-color: rgb(166, 123, 91);
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3vw;
+    text-align: center;
+    flex: 1;
+    max-width: 25%;
+}
+
+.mail-space {
+    padding-top: 12px;
+}
+
+.icon-header {
+    font-size: 20px;
+    color: #FED8B1;
+}
+
+.icon-link {
+    color:#6d5c51;
+}
+
+.icon-link:hover {
+    color:#564940;
+}
+
+
+.icon-content p a {
+    color: #dfba96;
+    text-decoration: none;
+}
+
+.icon-content p a:hover {
+    color:#564940;
+    text-decoration: underline;
+}
+
+.hours-text {
+    color: #dfba96;
+}
+
+.image-icons {
+    width: 58px;
+}
+
+.icon-image {
+    width: 50px;
+    height: 50px;
 }
