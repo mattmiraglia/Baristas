@@ -20,6 +20,7 @@
     color:#26201C;
     cursor: pointer;
     font-size: 20px;
+    transition: opacity 0.1s;
 }
 
 .nav-button-container {
@@ -96,4 +97,35 @@ nav p {
     padding-left: 10px;
     padding-right: 10px;
     color:#FED8B1;
+}
+
+.social-button-container {
+    position: relative;
+    display: flex;
+    margin-top: 79%;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+}
+
+.social-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.1s;
+}
+
+.social-button:hover {
+    opacity: 0.8;
+}
+
+.social-button:active {
+    opacity: 0.6;
+}
+
+.social-icon {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
 }
