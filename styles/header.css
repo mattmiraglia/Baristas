@@ -47,6 +47,8 @@ nav {
    padding-top: 50px;
    z-index: 1000; /* ensures it stays on top of other content */
    align-items: center;
+   display: flex;
+    flex-direction: column;
 }
 
 nav ul {
@@ -100,13 +102,13 @@ nav p {
 }
 
 .social-button-container {
-    position: relative;
+    position: absolute;
     display: flex;
-    margin-top: 79%;
     column-gap: 20px;
     align-items: center;
     justify-content: center;
     width: 220px;
+    bottom: 100px;
 }
 
 .social-button {
